@@ -21,6 +21,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -83,11 +84,18 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Screen1() {
+    val scope = rememberCoroutineScope()
+
+
+
 
 }
 
 @Composable
 fun Screen2() {
+    Text("Hello")
+    Text("Hello2")
+    Text("Hello3")
 
 }
 
