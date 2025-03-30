@@ -81,13 +81,5 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@Composable
-fun Screen1() {
 
-}
-
-@Composable
-fun Screen2() {
-
-}
 
